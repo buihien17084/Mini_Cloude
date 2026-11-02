@@ -1,0 +1,11 @@
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\bin\Debug\net10.0\Mini_Cloud.Domain.deps.json
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\bin\Debug\net10.0\Mini_Cloud.Domain.dll
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\bin\Debug\net10.0\Mini_Cloud.Domain.pdb
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\obj\Debug\net10.0\Mini_Cloud.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\obj\Debug\net10.0\Mini_Cloud.Domain.AssemblyInfoInputs.cache
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\obj\Debug\net10.0\Mini_Cloud.Domain.AssemblyInfo.cs
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\obj\Debug\net10.0\Mini_Cloud.Domain.csproj.CoreCompileInputs.cache
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\obj\Debug\net10.0\Mini_Cloud.Domain.dll
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\obj\Debug\net10.0\refint\Mini_Cloud.Domain.dll
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\obj\Debug\net10.0\Mini_Cloud.Domain.pdb
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\obj\Debug\net10.0\ref\Mini_Cloud.Domain.dll

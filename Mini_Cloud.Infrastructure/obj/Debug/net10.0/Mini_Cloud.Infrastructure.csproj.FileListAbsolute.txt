@@ -1,0 +1,11 @@
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Infrastructure\bin\Debug\net10.0\Mini_Cloud.Infrastructure.deps.json
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Infrastructure\bin\Debug\net10.0\Mini_Cloud.Infrastructure.dll
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Infrastructure\bin\Debug\net10.0\Mini_Cloud.Infrastructure.pdb
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Infrastructure\obj\Debug\net10.0\Mini_Cloud.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Infrastructure\obj\Debug\net10.0\Mini_Cloud.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Infrastructure\obj\Debug\net10.0\Mini_Cloud.Infrastructure.AssemblyInfo.cs
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Infrastructure\obj\Debug\net10.0\Mini_Cloud.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Infrastructure\obj\Debug\net10.0\Mini_Cloud.Infrastructure.dll
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Infrastructure\obj\Debug\net10.0\refint\Mini_Cloud.Infrastructure.dll
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Infrastructure\obj\Debug\net10.0\Mini_Cloud.Infrastructure.pdb
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Infrastructure\obj\Debug\net10.0\ref\Mini_Cloud.Infrastructure.dll
