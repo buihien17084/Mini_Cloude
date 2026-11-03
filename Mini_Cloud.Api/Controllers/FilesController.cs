@@ -60,5 +60,12 @@ namespace Mini_Cloud.Api.Controllers
             var result= _mediator.Send(new GetFilesQuery(CurrentUserId, query, page, pagesize));
             return Ok(result);
         }
+        [Authorize]
+        [HttpGet("{id:guid}/download")]
+        public async Task<IActionResult> Download(Guid id, CancellationToken cancellationToken)
+        {
+            var result = await _mediator.Send(new DownloadFileQuery(CurrentUserId, id), cancellationToken);
+            return File(result.Stream, result.ContentType, result.FileName, enableRangeProcessing: true);
+        }
     }
 }
