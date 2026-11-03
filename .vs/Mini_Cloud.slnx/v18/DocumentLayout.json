@@ -3,12 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\features\\auth\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|solutionrelative:mini_cloud.application\\features\\auth\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\features\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|solutionrelative:mini_cloud.application\\features\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\common\\interfaces\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|solutionrelative:mini_cloud.application\\common\\interfaces\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\features\\files\\uploadfilecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|solutionrelative:mini_cloud.application\\features\\files\\uploadfilecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D90FFB27-92AA-82DA-147F-44B69E1FEB33}|Mini_Cloud.Api\\Mini_Cloud.Api.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.api\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D90FFB27-92AA-82DA-147F-44B69E1FEB33}|Mini_Cloud.Api\\Mini_Cloud.Api.csproj|solutionrelative:mini_cloud.api\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0440ECD-D19D-EE0A-A96B-2C29E81C3B87}|Mini_Cloud.Infrastructure\\Mini_Cloud.Infrastructure.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.infrastructure\\storage\\localfilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0440ECD-D19D-EE0A-A96B-2C29E81C3B87}|Mini_Cloud.Infrastructure\\Mini_Cloud.Infrastructure.csproj|solutionrelative:mini_cloud.infrastructure\\storage\\localfilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\common\\models\\filedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|solutionrelative:mini_cloud.application\\common\\models\\filedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0440ECD-D19D-EE0A-A96B-2C29E81C3B87}|Mini_Cloud.Infrastructure\\Mini_Cloud.Infrastructure.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0440ECD-D19D-EE0A-A96B-2C29E81C3B87}|Mini_Cloud.Infrastructure\\Mini_Cloud.Infrastructure.csproj|solutionrelative:mini_cloud.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\features\\auth\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|solutionrelative:mini_cloud.application\\features\\auth\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\features\\auth\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|solutionrelative:mini_cloud.application\\features\\auth\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\common\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|solutionrelative:mini_cloud.application\\common\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\common\\exceptions\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|solutionrelative:mini_cloud.application\\common\\exceptions\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C12280-3851-4AA6-9C33-D411CF0FF501}|MiniCloud.Tests\\MiniCloud.Tests.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\minicloud.tests\\minicloud.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{14C12280-3851-4AA6-9C33-D411CF0FF501}|MiniCloud.Tests\\MiniCloud.Tests.csproj|solutionrelative:minicloud.tests\\minicloud.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0440ECD-D19D-EE0A-A96B-2C29E81C3B87}|Mini_Cloud.Infrastructure\\Mini_Cloud.Infrastructure.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.infrastructure\\mini_cloud.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E0440ECD-D19D-EE0A-A96B-2C29E81C3B87}|Mini_Cloud.Infrastructure\\Mini_Cloud.Infrastructure.csproj|solutionrelative:mini_cloud.infrastructure\\mini_cloud.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0440ECD-D19D-EE0A-A96B-2C29E81C3B87}|Mini_Cloud.Infrastructure\\Mini_Cloud.Infrastructure.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.infrastructure\\security\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,18 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D90FFB27-92AA-82DA-147F-44B69E1FEB33}|Mini_Cloud.Api\\Mini_Cloud.Api.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D90FFB27-92AA-82DA-147F-44B69E1FEB33}|Mini_Cloud.Api\\Mini_Cloud.Api.csproj|solutionrelative:mini_cloud.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\common\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|solutionrelative:mini_cloud.application\\common\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\features\\auth\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|solutionrelative:mini_cloud.application\\features\\auth\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\common\\exceptions\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|solutionrelative:mini_cloud.application\\common\\exceptions\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\common\\interfaces\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,16 +91,8 @@
       "RelativeMoniker": "D:0:0:{B0BB2C4C-03F9-F9D0-0685-060C1B74B397}|Mini_Cloud.Domain\\Mini_Cloud.Domain.csproj|solutionrelative:mini_cloud.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0BB2C4C-03F9-F9D0-0685-060C1B74B397}|Mini_Cloud.Domain\\Mini_Cloud.Domain.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0BB2C4C-03F9-F9D0-0685-060C1B74B397}|Mini_Cloud.Domain\\Mini_Cloud.Domain.csproj|solutionrelative:mini_cloud.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\common\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|solutionrelative:mini_cloud.application\\common\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|c:\\users\\transformers\\source\\repos\\mini_cloud\\mini_cloud.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8A44C71-2F82-2512-7DCF-B1874CD9C4ED}|Mini_Cloud.Application\\Mini_Cloud.Application.csproj|solutionrelative:mini_cloud.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,11 +102,113 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Features\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Mini_Cloud.Application\\Features\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Features\\DependencyInjection.cs",
+              "RelativeToolTip": "Mini_Cloud.Application\\Features\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T10:25:09.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LocalFileStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Infrastructure\\Storage\\LocalFileStorageService.cs",
+              "RelativeDocumentMoniker": "Mini_Cloud.Infrastructure\\Storage\\LocalFileStorageService.cs",
+              "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Infrastructure\\Storage\\LocalFileStorageService.cs",
+              "RelativeToolTip": "Mini_Cloud.Infrastructure\\Storage\\LocalFileStorageService.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAIwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T10:04:30.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileDto.cs",
+              "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Common\\Models\\FileDto.cs",
+              "RelativeDocumentMoniker": "Mini_Cloud.Application\\Common\\Models\\FileDto.cs",
+              "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Common\\Models\\FileDto.cs",
+              "RelativeToolTip": "Mini_Cloud.Application\\Common\\Models\\FileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T10:02:05.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UploadFileCommand.cs",
+              "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Features\\Files\\UploadFileCommand.cs",
+              "RelativeDocumentMoniker": "Mini_Cloud.Application\\Features\\Files\\UploadFileCommand.cs",
+              "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Features\\Files\\UploadFileCommand.cs",
+              "RelativeToolTip": "Mini_Cloud.Application\\Features\\Files\\UploadFileCommand.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAD4v2oAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T09:52:38.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFileStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Common\\Interfaces\\IFileStorageService.cs",
+              "RelativeDocumentMoniker": "Mini_Cloud.Application\\Common\\Interfaces\\IFileStorageService.cs",
+              "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Common\\Interfaces\\IFileStorageService.cs",
+              "RelativeToolTip": "Mini_Cloud.Application\\Common\\Interfaces\\IFileStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T09:46:51.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FilesController.cs",
+              "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Api\\Controllers\\FilesController.cs",
+              "RelativeDocumentMoniker": "Mini_Cloud.Api\\Controllers\\FilesController.cs",
+              "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Api\\Controllers\\FilesController.cs",
+              "RelativeToolTip": "Mini_Cloud.Api\\Controllers\\FilesController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T09:42:43.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MiniCloud.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\MiniCloud.Tests\\MiniCloud.Tests.csproj",
+              "RelativeDocumentMoniker": "MiniCloud.Tests\\MiniCloud.Tests.csproj",
+              "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\MiniCloud.Tests\\MiniCloud.Tests.csproj",
+              "RelativeToolTip": "MiniCloud.Tests\\MiniCloud.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-02T14:12:13.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Mini_Cloud.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Infrastructure\\Mini_Cloud.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Mini_Cloud.Infrastructure\\Mini_Cloud.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Infrastructure\\Mini_Cloud.Infrastructure.csproj",
+              "RelativeToolTip": "Mini_Cloud.Infrastructure\\Mini_Cloud.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-02T14:12:10.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "LoginCommand.cs",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Features\\Auth\\LoginCommand.cs",
               "RelativeDocumentMoniker": "Mini_Cloud.Application\\Features\\Auth\\LoginCommand.cs",
@@ -95,33 +221,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AppException.cs",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Common\\Exceptions\\AppException.cs",
               "RelativeDocumentMoniker": "Mini_Cloud.Application\\Common\\Exceptions\\AppException.cs",
               "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Common\\Exceptions\\AppException.cs",
               "RelativeToolTip": "Mini_Cloud.Application\\Common\\Exceptions\\AppException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwEAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-02T09:19:17.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Mini_Cloud.Application",
+              "DocumentIndex": 17,
+              "Title": "Mini_Cloud.Application.csproj",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Mini_Cloud.Application.csproj",
               "RelativeDocumentMoniker": "Mini_Cloud.Application\\Mini_Cloud.Application.csproj",
               "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Mini_Cloud.Application.csproj",
               "RelativeToolTip": "Mini_Cloud.Application\\Mini_Cloud.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-02T09:15:21.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T09:15:21.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "IApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Common\\Interfaces\\IApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Mini_Cloud.Application\\Common\\Interfaces\\IApplicationDbContext.cs",
@@ -129,38 +254,36 @@
               "RelativeToolTip": "Mini_Cloud.Application\\Common\\Interfaces\\IApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T09:02:08.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T09:02:08.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Mini_Cloud.Api",
+              "DocumentIndex": 19,
+              "Title": "Mini_Cloud.Api.csproj",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Api\\Mini_Cloud.Api.csproj",
               "RelativeDocumentMoniker": "Mini_Cloud.Api\\Mini_Cloud.Api.csproj",
               "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Api\\Mini_Cloud.Api.csproj",
               "RelativeToolTip": "Mini_Cloud.Api\\Mini_Cloud.Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-02T08:44:37.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T08:44:37.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Infrastructure\\Persistence\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Mini_Cloud.Infrastructure\\Persistence\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Infrastructure\\Persistence\\ApplicationDbContext.cs",
               "RelativeToolTip": "Mini_Cloud.Infrastructure\\Persistence\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-02T08:35:30.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "JwtTokenGenerator.cs",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Infrastructure\\Security\\JwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "Mini_Cloud.Infrastructure\\Security\\JwtTokenGenerator.cs",
@@ -168,12 +291,11 @@
               "RelativeToolTip": "Mini_Cloud.Infrastructure\\Security\\JwtTokenGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T08:31:49.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T08:31:49.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "BCryptPasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Infrastructure\\Security\\BCryptPasswordHasher.cs",
               "RelativeDocumentMoniker": "Mini_Cloud.Infrastructure\\Security\\BCryptPasswordHasher.cs",
@@ -181,12 +303,11 @@
               "RelativeToolTip": "Mini_Cloud.Infrastructure\\Security\\BCryptPasswordHasher.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwAMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T08:30:49.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T08:30:49.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Mini_Cloud.Domain\\Entities\\User.cs",
@@ -194,12 +315,11 @@
               "RelativeToolTip": "Mini_Cloud.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T08:28:10.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T08:28:10.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "StoredFile.cs",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Domain\\Entities\\StoredFile.cs",
               "RelativeDocumentMoniker": "Mini_Cloud.Domain\\Entities\\StoredFile.cs",
@@ -207,12 +327,11 @@
               "RelativeToolTip": "Mini_Cloud.Domain\\Entities\\StoredFile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T08:27:33.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T08:27:33.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "IJwtTokenGenerator.cs",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Common\\Interfaces\\IJwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "Mini_Cloud.Application\\Common\\Interfaces\\IJwtTokenGenerator.cs",
@@ -220,12 +339,11 @@
               "RelativeToolTip": "Mini_Cloud.Application\\Common\\Interfaces\\IJwtTokenGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T14:28:47.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T14:28:47.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "IPasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Common\\Interfaces\\IPasswordHasher.cs",
               "RelativeDocumentMoniker": "Mini_Cloud.Application\\Common\\Interfaces\\IPasswordHasher.cs",
@@ -233,12 +351,11 @@
               "RelativeToolTip": "Mini_Cloud.Application\\Common\\Interfaces\\IPasswordHasher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T14:22:29.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T14:22:29.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Common\\Models\\UserDto.cs",
               "RelativeDocumentMoniker": "Mini_Cloud.Application\\Common\\Models\\UserDto.cs",
@@ -251,20 +368,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "RegisterCommand.cs",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Features\\Auth\\RegisterCommand.cs",
               "RelativeDocumentMoniker": "Mini_Cloud.Application\\Features\\Auth\\RegisterCommand.cs",
               "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Features\\Auth\\RegisterCommand.cs",
               "RelativeToolTip": "Mini_Cloud.Application\\Features\\Auth\\RegisterCommand.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAswAIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T14:16:59.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Mini_Cloud.Api\\Controllers\\AuthController.cs",
@@ -272,33 +389,7 @@
               "RelativeToolTip": "Mini_Cloud.Api\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAA5wC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T12:57:43.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "Mini_Cloud.Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Domain\\Class1.cs",
-              "RelativeToolTip": "Mini_Cloud.Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T11:43:52.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "Mini_Cloud.Application\\Class1.cs",
-              "ToolTip": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Class1.cs",
-              "RelativeToolTip": "Mini_Cloud.Application\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T11:43:41.949Z"
+              "WhenOpened": "2026-11-01T12:57:43.282Z"
             }
           ]
         }

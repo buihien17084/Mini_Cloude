@@ -634,19 +634,19 @@
           "build/net8.0/Microsoft.TestPlatform.TestHost.targets": {}
         }
       },
-      "MySqlConnector/2.4.0": {
+      "MySqlConnector/2.6.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
         },
         "compile": {
-          "lib/net9.0/MySqlConnector.dll": {
+          "lib/net10.0/MySqlConnector.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/MySqlConnector.dll": {
+          "lib/net10.0/MySqlConnector.dll": {
             "related": ".xml"
           }
         }
@@ -801,6 +801,7 @@
           "MediatR": "14.2.0",
           "Microsoft.EntityFrameworkCore": "10.0.14",
           "Mini_Cloud.Domain": "1.0.0",
+          "MySqlConnector": "2.6.2",
           "Pomelo.EntityFrameworkCore.MySql": "9.0.0"
         },
         "compile": {
@@ -830,6 +831,7 @@
           "Microsoft.Extensions.Configuration.Abstractions": "10.0.14",
           "Mini_Cloud.Application": "1.0.0",
           "Mini_Cloud.Domain": "1.0.0",
+          "MySqlConnector": "2.6.2",
           "Pomelo.EntityFrameworkCore.MySql": "9.0.0",
           "System.IdentityModel.Tokens.Jwt": "8.23.0"
         },
@@ -1765,14 +1767,16 @@
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
-    "MySqlConnector/2.4.0": {
-      "sha512": "78M+gVOjbdZEDIyXQqcA7EYlCGS3tpbUELHvn6638A2w0pkPI625ixnzsa5staAd3N9/xFmPJtkKDYwsXpFi/w==",
+    "MySqlConnector/2.6.2": {
+      "sha512": "dlTc/tsBa42szdvpj4nrHvQVUb0gsMwR9HT6J0Zz2OSqfP0CdYlGw+qQPqCpbnO97idfvclSjKYtM6y5QaBQaQ==",
       "type": "package",
-      "path": "mysqlconnector/2.4.0",
+      "path": "mysqlconnector/2.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
+        "lib/net10.0/MySqlConnector.dll",
+        "lib/net10.0/MySqlConnector.xml",
         "lib/net462/MySqlConnector.dll",
         "lib/net462/MySqlConnector.xml",
         "lib/net471/MySqlConnector.dll",
@@ -1790,7 +1794,7 @@
         "lib/netstandard2.1/MySqlConnector.dll",
         "lib/netstandard2.1/MySqlConnector.xml",
         "logo.png",
-        "mysqlconnector.2.4.0.nupkg.sha512",
+        "mysqlconnector.2.6.2.nupkg.sha512",
         "mysqlconnector.nuspec"
       ]
     },
@@ -2027,6 +2031,7 @@
       "Mini_Cloud.Application >= 1.0.0",
       "Mini_Cloud.Domain >= 1.0.0",
       "Mini_Cloud.Infrastructure >= 1.0.0",
+      "MySqlConnector >= 2.6.2",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
       "xunit.runner.visualstudio >= 3.1.4"
@@ -2097,6 +2102,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.14.1, )"
+          },
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[2.6.2, )"
           },
           "coverlet.collector": {
             "target": "Package",
@@ -2412,16 +2421,6 @@
       "warningLevel": 1,
       "message": "Detected package version outside of dependency constraint: Pomelo.EntityFrameworkCore.MySql 9.0.0 requires Microsoft.EntityFrameworkCore.Relational (>= 9.0.0 && <= 9.0.999) but version Microsoft.EntityFrameworkCore.Relational 10.0.14 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore.Relational",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'MySqlConnector' 2.4.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-473q-m89c-ghf8",
-      "libraryId": "MySqlConnector",
       "targetGraphs": [
         "net10.0"
       ]

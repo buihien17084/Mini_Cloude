@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniCloud.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d447d75d2415b83c946ce00b42f138be2d2bcfea")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniCloud.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniCloud.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

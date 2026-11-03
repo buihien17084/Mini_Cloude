@@ -9,3 +9,4 @@ C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\obj\Debug\net10.
 C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\obj\Debug\net10.0\refint\Mini_Cloud.Domain.dll
 C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\obj\Debug\net10.0\Mini_Cloud.Domain.pdb
 C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\obj\Debug\net10.0\ref\Mini_Cloud.Domain.dll
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Domain\obj\Debug\net10.0\Mini_Cloud.Domain.sourcelink.json

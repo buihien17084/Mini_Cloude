@@ -10,3 +10,7 @@ C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Application\obj\Debug\n
 C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Application\obj\Debug\net10.0\Mini_Cloud.Application.pdb
 C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Application\obj\Debug\net10.0\ref\Mini_Cloud.Application.dll
 C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Application\obj\Debug\net10.0\Mini_Cloud.Application.csproj.AssemblyReference.cache
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Application\bin\Debug\net10.0\Mini_Cloud.Domain.dll
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Application\bin\Debug\net10.0\Mini_Cloud.Domain.pdb
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Application\obj\Debug\net10.0\Mini_Cloud.Application.sourcelink.json
+C:\Users\transformers\source\repos\Mini_Cloud\Mini_Cloud.Application\obj\Debug\net10.0\Mini_Clo.6FAFED03.Up2Date
