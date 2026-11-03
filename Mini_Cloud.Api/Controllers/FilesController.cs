@@ -50,5 +50,15 @@ namespace Mini_Cloud.Api.Controllers
             var result = await _mediator.Send(command, cancellationToken);
             return StatusCode(StatusCodes.Status201Created, result);
         }
+        [HttpGet]
+        public async Task<IActionResult> GetFiles(
+            [FromBody] string? query,
+            [FromBody] int page = 1,
+            [FromBody] int pagesize=10
+            )
+        {
+            var result= _mediator.Send(new GetFilesQuery(CurrentUserId, query, page, pagesize));
+            return Ok(result);
+        }
     }
 }
