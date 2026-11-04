@@ -50,6 +50,7 @@ namespace Mini_Cloud.Api.Controllers
             var result = await _mediator.Send(command, cancellationToken);
             return StatusCode(StatusCodes.Status201Created, result);
         }
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetFiles(
             [FromBody] string? query,
@@ -67,5 +68,14 @@ namespace Mini_Cloud.Api.Controllers
             var result = await _mediator.Send(new DownloadFileQuery(CurrentUserId, id), cancellationToken);
             return File(result.Stream, result.ContentType, result.FileName, enableRangeProcessing: true);
         }
+        [HttpPatch("{id:guid}/rename")]
+        public async Task<IActionResult> Rename(Guid id, [FromBody] RenameFileRequest request,CancellationToken cancellationToken)
+        {
+            if (request == null || string.IsNullOrEmpty(request.NewFileName))
+                throw new BadRequestException("Tên file mới không được để rỗng.");
+            var result = _mediator.Send(new RenameFileCommand(CurrentUserId, id, request.NewFileName));
+            return Ok(result);
+        }
+        public record RenameFileRequest(string NewFileName);
     }
 }
