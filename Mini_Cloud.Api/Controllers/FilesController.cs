@@ -76,6 +76,17 @@ namespace Mini_Cloud.Api.Controllers
             var result = _mediator.Send(new RenameFileCommand(CurrentUserId, id, request.NewFileName));
             return Ok(result);
         }
+        [Authorize]
+        [HttpDelete("{id:guid}")]
+        public async Task<IActionResult> Delete(Guid id, CancellationToken cancellationToken)
+        {
+            var result = await _mediator.Send(new DeleteFileCommand(CurrentUserId, id), cancellationToken);
+            return Ok(new
+            {
+                message = "Xóa file thành công.",
+                file = result
+            });
+        }
         public record RenameFileRequest(string NewFileName);
     }
 }
