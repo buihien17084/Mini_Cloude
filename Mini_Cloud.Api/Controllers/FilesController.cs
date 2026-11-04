@@ -87,6 +87,31 @@ namespace Mini_Cloud.Api.Controllers
                 file = result
             });
         }
+        [Authorize]
+        [HttpPost("{id:guid}/share")]
+        public async Task<IActionResult> CreateShareLink(Guid id, [FromBody] ShareFileRequest? request, CancellationToken cancellationToken)
+        {
+            var baseUrl = $"{Request.Scheme}://{Request.Host}";
+            var result = await _mediator.Send(new CreateShareLinkCommand(CurrentUserId, id, request?.ExpiresInHours, baseUrl), cancellationToken);
+            return Ok(result);
+        }
+        [Authorize]
+        [HttpPost("{id:guid}/revoke-share")]
+        [HttpDelete("{id:guid}/share")]
+        public async Task<IActionResult> RevokeShareLink(Guid id, CancellationToken cancellationToken)
+        {
+            await _mediator.Send(new RevokeShareLinkCommand(CurrentUserId, id), cancellationToken);
+            return Ok(new { message = "Đã thu hồi link chia sẻ thành công." });
+        }
+
+        [AllowAnonymous]
+        [HttpGet("shared/{token}")]
+        public async Task<IActionResult> DownloadSharedFile(string token, CancellationToken cancellationToken)
+        {
+            var result = await _mediator.Send(new DownloadSharedFileQuery(token), cancellationToken);
+            return File(result.Stream, result.ContentType, result.FileName, enableRangeProcessing: true);
+        }
         public record RenameFileRequest(string NewFileName);
+        public record ShareFileRequest(int? ExpiresInHours);
     }
 }
