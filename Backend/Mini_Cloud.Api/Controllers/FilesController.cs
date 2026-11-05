@@ -31,7 +31,7 @@ namespace Mini_Cloud.Api.Controllers
 
         [Authorize]
         [HttpPost("upload")]
-        [RequestSizeLimit(105_000_000)] // Allow up to 105MB for multipart payload
+        [RequestSizeLimit(105_000_000)] 
         public async Task<IActionResult> Upload(IFormFile? file, CancellationToken cancellationToken)
         {
             if (file == null || file.Length == 0)

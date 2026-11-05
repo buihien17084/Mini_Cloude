@@ -21,7 +21,6 @@ namespace Mini_Cloud.Application.Features.Auth
 
     public class LoginCommandHandler : IRequestHandler<LoginCommand, LoginResponse>
     {
-        // Hash BCrypt hợp lệ của một mật khẩu ngẫu nhiên, chỉ dùng để cân bằng thời gian xử lý
         private static string? _dummyHash;
 
         private readonly IApplicationDbContext _context;
@@ -46,12 +45,10 @@ namespace Mini_Cloud.Application.Features.Auth
             var user = await _context.Users
                 .FirstOrDefaultAsync(u => u.Gmail == email, cancellationToken);
 
-            // Same error message for both wrong email and wrong password to prevent email enumeration
             const string invalidCredentialsMsg = "Email hoặc mật khẩu không chính xác.";
 
             if (user == null)
             {
-                // Vẫn chạy một lần băm để thời gian phản hồi không lộ email nào đã đăng ký
                 _passwordHasher.VerifyPassword(password, (_dummyHash ??= _passwordHasher.HashPassword(Guid.NewGuid().ToString("N"))));
                 throw new UnauthorizedException(invalidCredentialsMsg);
             }

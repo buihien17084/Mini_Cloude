@@ -44,8 +44,6 @@ public  class GetFilesQueryHandler : IRequestHandler<GetFilesQuery, PagedResult<
         }
 
         var totalFiles = await query.CountAsync(cancellationToken);
-
-        // Map to FileListDto: Excludes ShareToken to avoid exposing secrets in list views
         var items = await query
             .OrderByDescending(f => f.CreatedAt)
             .Skip((page - 1) * pageSize)

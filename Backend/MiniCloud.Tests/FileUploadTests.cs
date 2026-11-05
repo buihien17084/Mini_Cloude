@@ -120,7 +120,6 @@ public class FileUploadTests : TestBase
     [Fact]
     public async Task Upload_ConcurrentUploads_ExceedingQuota_ShouldSafelyRejectOverQuota()
     {
-        // Arrange: User has 450MB currently used
         DbContext.StoredFiles.Add(new StoredFile
         {
             Id = Guid.NewGuid(),
@@ -131,9 +130,6 @@ public class FileUploadTests : TestBase
             CreatedAt = DateTime.UtcNow
         });
         await DbContext.SaveChangesAsync();
-
-        // 2 parallel uploads of 30MB each (450 + 30 + 30 = 510MB > 500MB)
-        // One should succeed, the other MUST fail with PayloadTooLargeException!
         var fileSize = 30L * 1024 * 1024;
 
         var task1 = Task.Run(async () =>
@@ -159,7 +155,7 @@ public class FileUploadTests : TestBase
 
     private static class TaskExtensions
     {
-        // Helper to settle tasks
+        
     }
 }
 

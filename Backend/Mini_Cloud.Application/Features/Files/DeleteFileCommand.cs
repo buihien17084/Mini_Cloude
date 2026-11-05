@@ -54,11 +54,8 @@ using Microsoft.EntityFrameworkCore;
 
             var physicalPath = file.FilePath;
 
-            // Delete metadata in database first
             _context.StoredFiles.Remove(file);
             await _context.SaveChangesAsync(cancellationToken);
-
-            // Then delete physical file on disk; do not swallow exception silently - log with details
             try
             {
                 _storageService.DeleteFile(physicalPath);

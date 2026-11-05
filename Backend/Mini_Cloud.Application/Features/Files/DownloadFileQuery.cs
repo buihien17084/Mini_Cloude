@@ -31,8 +31,6 @@ namespace Mini_Cloud.Application.Features.Files
             {
                 throw new UnauthorizedException();
             }
-
-            // Always query by pair (Id, UserId) - if not found or belongs to someone else, return 404
             var file = await _context.StoredFiles
                 .AsNoTracking()
                 .FirstOrDefaultAsync(f => f.Id == request.FileId && f.UserId == request.UserId, cancellationToken);

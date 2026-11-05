@@ -11,14 +11,11 @@ using Mini_Cloud.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add Controllers
 builder.Services.AddControllers();
 
-// Add Clean Architecture Layers
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
-// Add Rate Limiting for Auth endpoints
 builder.Services.AddRateLimiter(options =>
 {
     options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
@@ -35,20 +32,18 @@ builder.Services.AddRateLimiter(options =>
             token);
     };
 
-    // Giới hạn theo từng địa chỉ IP (mỗi IP có "xô" riêng), tránh một người spam làm tất cả bị chặn.
     options.AddPolicy("AuthRateLimit", httpContext =>
         RateLimitPartition.GetFixedWindowLimiter(
             partitionKey: httpContext.Connection.RemoteIpAddress?.ToString() ?? "unknown",
             factory: _ => new FixedWindowRateLimiterOptions
             {
-                PermitLimit = 20, // 20 requests / phút / IP
+                PermitLimit = 20, 
                 Window = TimeSpan.FromMinutes(1),
                 QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
                 QueueLimit = 0
             }));
 });
 
-// Configure JWT Authentication (Fail-fast if secret is missing or too short)
 var jwtSecretKey = builder.Configuration["Jwt:SecretKey"];
 if (string.IsNullOrWhiteSpace(jwtSecretKey) || jwtSecretKey.Length < 32)
 {
@@ -103,8 +98,6 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-// Development convenience only. Before production deployment, add EF Core migrations
-// and replace EnsureCreated() with Database.Migrate() as documented in README.md.
 if (app.Environment.IsDevelopment())
 {
     using var scope = app.Services.CreateScope();

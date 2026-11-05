@@ -54,7 +54,6 @@ public class ShareLinkTests : TestBase
 
         Assert.NotNull(response);
         Assert.False(string.IsNullOrWhiteSpace(response.ShareToken));
-        // Token has 64 hex characters (32 bytes = 256 bits of entropy)
         Assert.Equal(64, response.ShareToken.Length);
         Assert.Equal($"https://clouddrive.example.com/api/files/shared/{response.ShareToken}", response.ShareUrl);
         Assert.NotNull(response.ExpiresAt);
@@ -68,7 +67,7 @@ public class ShareLinkTests : TestBase
     [Theory]
     [InlineData(0)]
     [InlineData(-1)]
-    [InlineData(9000)] // > 8760
+    [InlineData(9000)] 
     public async Task CreateShareLink_InvalidExpiryHours_ShouldThrowBadRequestException(int invalidHours)
     {
         await Assert.ThrowsAsync<BadRequestException>(() =>
@@ -97,7 +96,6 @@ public class ShareLinkTests : TestBase
         _file.ShareToken = "expiredtokenteststringwhichhascertainlengthtoqualify64hexcharacters12";
         _file.ShareExpiresAt = DateTime.UtcNow.AddMinutes(-5); // Expired 5 mins ago
         await DbContext.SaveChangesAsync();
-
         var ex = await Assert.ThrowsAsync<NotFoundException>(() =>
             _downloadSharedHandler.Handle(new DownloadSharedFileQuery(_file.ShareToken), CancellationToken.None));
         Assert.Equal("Link chia sẻ không tồn tại hoặc đã hết hạn.", ex.Message);
@@ -106,19 +104,12 @@ public class ShareLinkTests : TestBase
     [Fact]
     public async Task RevokeShareLink_ThenDownload_ShouldThrowNotFoundException()
     {
-        // 1. Share
         var shareResponse = await _createShareHandler.Handle(new CreateShareLinkCommand(_userId, _file.Id), CancellationToken.None);
         var token = shareResponse.ShareToken;
-
-        // 2. Revoke
         var revokeResult = await _revokeShareHandler.Handle(new RevokeShareLinkCommand(_userId, _file.Id), CancellationToken.None);
         Assert.True(revokeResult);
-
-        // 3. Download using old token -> 404
         await Assert.ThrowsAsync<NotFoundException>(() =>
             _downloadSharedHandler.Handle(new DownloadSharedFileQuery(token), CancellationToken.None));
-
-        // 4. Re-sharing generates a NEW token, not the old revoked token
         var newShareResponse = await _createShareHandler.Handle(new CreateShareLinkCommand(_userId, _file.Id), CancellationToken.None);
         Assert.NotEqual(token, newShareResponse.ShareToken);
     }

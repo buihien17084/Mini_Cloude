@@ -48,13 +48,11 @@ namespace Mini_Cloud.Application.Features.Auth
                 throw new BadRequestException("Định dạng email không hợp lệ hoặc vượt quá 255 ký tự.");
             }
 
-            // BCrypt chỉ xét 72 BYTE đầu; chữ có dấu chiếm nhiều byte nên phải đếm theo byte
             if (password.Length < 8 || Encoding.UTF8.GetByteCount(password) > 72)
             {
                 throw new BadRequestException("Mật khẩu phải từ 8 ký tự và không quá 72 byte (khoảng 72 ký tự không dấu).");
             }
 
-            // Check if email already exists
             var emailExists = await _context.Users
                 .AnyAsync(u => u.Gmail == email, cancellationToken);
 
@@ -63,7 +61,6 @@ namespace Mini_Cloud.Application.Features.Auth
                 throw new ConflictException("Email đã được sử dụng.");
             }
 
-            // Hash password with BCrypt
             var passwordHash = _passwordHasher.HashPassword(password);
 
             var user = new User
@@ -83,7 +80,6 @@ namespace Mini_Cloud.Application.Features.Auth
             }
             catch (DbUpdateException)
             {
-                // Chỉ trả 409 khi đúng là trùng email (hai request đồng thời); lỗi DB khác phải trả 500.
                 _context.Users.Remove(user);
                 var nowExists = await _context.Users
                     .AnyAsync(u => u.Gmail == email, cancellationToken);

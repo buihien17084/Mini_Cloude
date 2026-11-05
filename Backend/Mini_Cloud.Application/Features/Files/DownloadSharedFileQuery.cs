@@ -39,8 +39,6 @@ public class DownloadSharedFileQueryHandler : IRequestHandler<DownloadSharedFile
                 f.IsShared &&
                 (f.ShareExpiresAt == null || f.ShareExpiresAt > now),
                 cancellationToken);
-
-        // Do not differentiate between wrong token, revoked, or expired token
         if (file == null)
         {
             throw new NotFoundException("Link chia sẻ không tồn tại hoặc đã hết hạn.");

@@ -2,10 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using Mini_Cloud.Application.Common.Exceptions;
 using Mini_Cloud.Application.Common.Interfaces;
-using System;
-using System.Collections.Generic;
 using System.Security.Cryptography;
-using System.Text;
+
 
 namespace Mini_Cloud.Application.Features.Files;
 
@@ -54,7 +52,6 @@ public class CreateShareLinkCommandHandler : IRequestHandler<CreateShareLinkComm
             throw new NotFoundException("Không tìm thấy file hoặc bạn không có quyền truy cập.");
         }
 
-        // Generate cryptographically secure 256-bit token (32 random bytes -> 64 hex characters)
         if (!file.IsShared || string.IsNullOrEmpty(file.ShareToken))
         {
             var randomBytes = RandomNumberGenerator.GetBytes(32);

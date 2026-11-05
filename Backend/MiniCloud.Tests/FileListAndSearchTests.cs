@@ -24,7 +24,6 @@ public class FileListAndSearchTests : TestBase
             new StoredFile { Id = Guid.NewGuid(), UserId = _userA, FileName = "Photo_Vacation.png", FilePath = "f3.png", FileSize = 300, CreatedAt = DateTime.UtcNow }
         );
 
-        // Seed file for User B
         DbContext.StoredFiles.Add(
             new StoredFile { Id = Guid.NewGuid(), UserId = _userB, FileName = "Confidential_B.pdf", FilePath = "fb.pdf", FileSize = 500, CreatedAt = DateTime.UtcNow }
         );
@@ -50,9 +49,9 @@ public class FileListAndSearchTests : TestBase
     }
 
     [Theory]
-    [InlineData(0, 10, 1, 10)] // Page 0 -> normalized to 1
-    [InlineData(-5, 0, 1, 10)] // Page -5 -> 1, PageSize 0 -> default 10
-    [InlineData(1, 10000, 1, 100)] // PageSize 10000 -> clamped to 100
+    [InlineData(0, 10, 1, 10)] 
+    [InlineData(-5, 0, 1, 10)] 
+    [InlineData(1, 10000, 1, 100)] 
     public async Task GetFiles_BoundaryPagination_ShouldNotThrow_And_NormalizeSafely(
         int page, int pageSize, int expectedPage, int expectedPageSize)
     {
