@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
@@ -8,11 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="14.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Mini_Cloud.Application\Mini_Cloud.Application.csproj" />
+    <ProjectReference Include="..\Mini_Cloud.Domain\Mini_Cloud.Domain.csproj" />
     <ProjectReference Include="..\Mini_Cloud.Infrastructure\Mini_Cloud.Infrastructure.csproj" />
   </ItemGroup>
 

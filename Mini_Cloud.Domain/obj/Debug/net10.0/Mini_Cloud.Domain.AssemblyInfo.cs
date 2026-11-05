@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mini_Cloud.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d447d75d2415b83c946ce00b42f138be2d2bcfea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abd936bd6ea9c81b28a985aa1cd5b4d0c9a429b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mini_Cloud.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mini_Cloud.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

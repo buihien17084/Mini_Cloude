@@ -36,6 +36,9 @@
               "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Mini_Cloud.Application.csproj": {
                 "projectPath": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Application\\Mini_Cloud.Application.csproj"
               },
+              "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Domain\\Mini_Cloud.Domain.csproj": {
+                "projectPath": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Domain\\Mini_Cloud.Domain.csproj"
+              },
               "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Infrastructure\\Mini_Cloud.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\transformers\\source\\repos\\Mini_Cloud\\Mini_Cloud.Infrastructure\\Mini_Cloud.Infrastructure.csproj"
               }
@@ -62,6 +65,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[14.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[10.0.14, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

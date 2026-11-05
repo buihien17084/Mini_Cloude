@@ -9,6 +9,10 @@
 
   <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.14" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.14" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.14" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.14" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
     <PackageReference Include="MySqlConnector" Version="2.6.2" />
     <PackageReference Include="xunit" Version="2.9.3" />
@@ -20,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Mini_Cloud.Api\Mini_Cloud.Api.csproj" />
     <ProjectReference Include="..\Mini_Cloud.Application\Mini_Cloud.Application.csproj" />
     <ProjectReference Include="..\Mini_Cloud.Domain\Mini_Cloud.Domain.csproj" />
     <ProjectReference Include="..\Mini_Cloud.Infrastructure\Mini_Cloud.Infrastructure.csproj" />

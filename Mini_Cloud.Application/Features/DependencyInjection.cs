@@ -2,7 +2,7 @@
 using System.Reflection;
 
 
-namespace Mini_Cloud.Application.Features;
+namespace Mini_Cloud.Application;
 
     public static class DependencyInjection
     {
