@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mini_Cloud.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abd936bd6ea9c81b28a985aa1cd5b4d0c9a429b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38bb978d8095a989ebb24d8f427cd00ac1f30926")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mini_Cloud.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mini_Cloud.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

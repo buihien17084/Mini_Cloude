@@ -25,8 +25,8 @@ namespace Mini_Cloud.Infrastructure.Security
                 throw new InvalidOperationException("Cấu hình 'Jwt:SecretKey' bắt buộc và phải dài ít nhất 32 ký tự. Vui lòng cấu hình qua User Secrets hoặc biến môi trường.");
             }
 
-            var issuer = _configuration["Jwt:Issuer"] ?? "CloudDriveAPI";
-            var audience = _configuration["Jwt:Audience"] ?? "CloudDriveClient";
+            var issuer = _configuration["Jwt:Issuer"] ?? "Mini_CloudAPI";
+            var audience = _configuration["Jwt:Audience"] ?? "Mini_CloudClient";
             var expiryInHours = double.TryParse(_configuration["Jwt:ExpiryInHours"], out var hours) ? hours : 24;
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
